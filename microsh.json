@@ -1,0 +1,8 @@
+{
+  "exec": {
+    "qtodo": "Qtodo/main.sh"
+  },
+  "dependencies": {
+    "yad": "*"
+  }
+}
