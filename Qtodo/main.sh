@@ -5,7 +5,7 @@ set -euo pipefail
 ###############################################################################
 # Configuration
 ###############################################################################
-SCRIPT_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT_ROOT="$(dirname -- "$(readlink -f -- "${BASH_SOURCE[0]}")")"
 
 TODO_DIR="$HOME/QuickCenter/Todos"
 STATE_DIR="${XDG_STATE_HOME:-$HOME/.local/state}/todo"
