@@ -1,4 +1,8 @@
 {
+  "id": "qtodo",
+  "name": "Qtodo - A Quick TODO app.",
+  "version": "1.0.2",
+  "description": "It is yad based Quick daily todo app.",
   "exec": {
     "qtodo": "Qtodo/main.sh"
   },
